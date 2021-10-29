@@ -1,0 +1,15 @@
+.myContainer{
+    border: 3px rgb(149, 42, 42) solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    
+}
+.myContainer > h2 {
+    cursor: pointer;
+}

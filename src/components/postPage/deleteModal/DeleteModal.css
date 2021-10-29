@@ -1,0 +1,13 @@
+.modalDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.modalButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.modalButtons > button{
+    width: 35%;
+}

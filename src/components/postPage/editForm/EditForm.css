@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    padding-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+.form-group{
+    padding: 25px;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    
+}
+label{
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+
+}
+input, textarea {
+    display: block;
+    min-width:100%;
+    max-width: max-content;
+   
+}
+textarea{
+    min-height: 150px;
+}
+button{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}

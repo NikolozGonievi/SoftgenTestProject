@@ -1,0 +1,29 @@
+.postPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 40%;
+    min-width: fit-content;
+}
+.buttons > button{
+    width:150px;
+}
+
+.buttons button:first-child {
+    margin-right: 25px;
+}
+.buttnons button:last-child {
+    margin-left: 25px;
+}
+.userComments{
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    font-size: larger;
+    font-weight: bold;
+    align-items: flex-start;
+}

@@ -1,0 +1,32 @@
+.modalContainer{
+    background-color: rgb(233, 202, 214);
+    width: 1000px;
+    height: fit-content;
+    border-radius: 35px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+label{
+    font-size: 1.9em;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+.imageInput{
+    max-width: 100px;
+}
+.imageDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 150px;
+    
+}
+.imageDiv > input{
+    min-width: 200px;
+    margin-right: 10px;
+}
+
